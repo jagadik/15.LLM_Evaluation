@@ -1,0 +1,8 @@
+﻿Metric,Average,Total
+Latency (seconds),0.706571,14.131424
+Input Tokens,42.15,843.0
+Output Tokens,63.0,1260.0
+Total Tokens,105.15,2103.0
+Input Cost (USD),8e-06,0.000169
+Output Cost (USD),7.6e-05,0.001512
+Total Cost (USD),8.4e-05,0.001681

@@ -1,0 +1,128 @@
+﻿User Query,Teacher Response,GeneratedAnswer,AnswerCorrectness,AnswerRelevancy,Helpfulness,AnswerQuality
+What is AI?,"AI (Artificial Intelligence) is the ability of computers to perform tasks that normally require human intelligence, such as learning, reasoning, recognizing patterns, and making decisions.","Artificial intelligence is like teaching a computer to think and learn a bit like a human does.
+Instead of following strict, step-by-step instructions, it looks at information and figures things out on its own.
+This allows computers to solve problems, recognize pictures, and understand human language without being explicitly programmed for every task.",0.9,1.0,1.0,0.967
+How does AI differ from traditional programming?,Traditional programs follow fixed rules written by humans. AI systems can learn patterns from data and use those patterns to make predictions or decisions.,"Traditional programming is like following a strict recipe where you give the computer exact steps to get a specific answer.
+Artificial intelligence is more like giving the computer a pile of examples and letting it figure out the recipe on its own.
+Instead of hardcoding rules, AI learns patterns from data so it can handle new, unexpected situations.",1.0,1.0,1.0,1.0
+What is Machine Learning?,Machine Learning is a branch of AI where computers learn patterns from data and use those patterns to make predictions or decisions without being explicitly programmed for every case.,"Machine learning
+ is a method where computers learn from experience rather than by following direct human instructions.
+You feed the system lots of data, and it finds patterns to make its own predictions or decisions.
+Think of it like teaching a child to recognize dogs by showing them hundreds of pictures instead of listing physical rules.",1.0,1.0,1.0,1.0
+What is Deep Learning?,Deep Learning is a type of Machine Learning that uses neural networks with multiple layers to learn complex patterns from large amounts of data.,"Deep learning is an advanced type of machine learning inspired by the interconnected structure of the human brain.
+It uses layers of artificial neurons to process massive amounts of complex data, like audio or images.
+This allows computers to automatically detect subtle patterns without human help, powering things like facial recognition and self-driving cars.",1.0,1.0,1.0,1.0
+"What is the difference between AI, ML, and Deep Learning?",AI is the broad field of making machines intelligent. ML is a way to achieve AI by learning from data. Deep Learning is a type of ML that uses multi-layer neural networks.,"Think of these concepts like Russian nesting dolls, where Artificial
+ Intelligence is the biggest outermost category of smart machines.
+Machine Learning is a specialized layer inside AI that learns from data rather than hardcoded rules.
+Deep Learning is the innermost, most advanced layer that uses brain-like neural networks to solve very complex problems.",1.0,1.0,1.0,1.0
+What is training data?,Training data is the data used to teach a Machine Learning model. The model studies patterns in this data so it can make predictions on new data.,"Training data is the collection of examples you feed into a computer system so it can learn a specific task.
+Just like a student uses a textbook and practice problems to study for an exam, AI uses this information to find patterns.
+The quality and quantity of this data directly determine how smart and accurate the final AI system will be.",0.8,1.0,1.0,0.933
+What is a Machine Learning model?,A Machine Learning model is a mathematical system that learns patterns from data and uses those learned patterns to produce predictions or decisions.,"A machine learning model is the brain-like mathematical recipe created after a computer learns from training data.
+Once it finishes studying examples, this
+ trained file holds all the patterns and rules it discovered on its own.
+You can then use this finished model to make predictions or decisions on brand new, unseen information.",1.0,1.0,1.0,1.0
+What is supervised learning?,"Supervised learning trains a model using examples that already have known answers, such as customer information paired with whether the customer left the company.","Supervised learning is like teaching a student with the help of a teacher who provides an answer key.
+You feed the computer examples
+ that are already labeled with the correct answers, like showing it pictures clearly marked as ""cat"" or ""dog.""
+The system studies these pairs to learn the connection so it can correctly label new, unseen pictures later.",1.0,1.0,1.0,1.0
+What is unsupervised learning?,"Unsupervised learning works with data that does not have predefined answers. The model tries to discover patterns, groups, or structures in the data.","Unsupervised learning is like giving a computer a messy box of assorted toys and letting it sort them without any guidance.
+There is no answer key or labeled data, so the system has to find hidden patterns and natural groupings on its own.
+It might group the toys by color or shape just by noticing which items share similar traits.",1.0,1.0,1.0,1.0
+What is reinforcement learning?,Reinforcement learning teaches an agent through rewards and penalties. The agent learns which actions produce better results over time.,"Reinforcement learning is like training a pet by giving it treats for good behavior and ignoring mistakes.
+The computer program tries different actions in an environment to achieve a goal through trial and error.
+Over time, it learns which choices earn the most rewards and figures out the best strategy to win.",1.0,1.0,1.0,1.0
+What is an LLM?,"An LLM, or Large Language Model, is an AI model trained on large amounts of text to understand and generate human-like language.","An LLM, or Large Language Model, is a super-smart computer program trained to read, write, and converse like a human.
+It works by digesting massive amounts of text from the internet to learn how words and sentences naturally fit together.
+This allows it to answer questions, write essays, and translate languages by predicting the most likely next word in a sentence.",1.0,1.0,1.0,1.0
+What is Generative AI?,"Generative AI is AI that can create new content such as text, images, audio, video, or code based on patterns learned during training.","Generative AI is a type of artificial intelligence that can create brand new content, like text, images, or music, from scratch.
+Instead of just analyzing existing information, it uses what it has learned to dream up entirely original outputs based on your requests.
+Think of it like a creative assistant that can paint a picture or write a story just because you asked it to.",0.7,1.0,1.0,0.9
+What is a prompt?,"A prompt is the instruction or input given to an AI model to tell it what you want it to do, such as explain a concept, write code, or summarize text.","A prompt is simply the instruction, question, or text that you give to an AI to tell it what you want it to do.
+It acts as a starting point or a command, guiding the computer on how to respond or what content to create.
+For example, asking an AI to ""write a poem about a robot"" is a prompt that directs its creative output.",1.0,1.0,1.0,1.0
+What is Prompt Engineering?,Prompt Engineering is the practice of designing clear and effective instructions so an AI model produces more useful and reliable responses.,"Prompt engineering is the skill of carefully crafting your questions and instructions to get the best possible response from an AI.
+It is like learning how to ask a question clearly so that a human expert gives you the exact answer you need.
+By tweaking your wording, adding context, or setting rules, you guide the AI to be much more accurate and helpful.",1.0,1.0,1.0,1.0
+What is RAG?,RAG stands for Retrieval-Augmented Generation. It retrieves relevant information from external data sources and provides that information to an LLM before generating an answer.,"ERROR: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 47.484670657s. [links {
+  description: ""Learn more about Gemini API quotas""
+  url: ""https://aistudio.google.com/docs/rate-limits""
+}
+, violations {
+  description: ""Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.""
+  quota_metric: ""generativelanguage.googleapis.com/generate_content_free_tier_requests""
+  quota_id: ""GenerateRequestsPerMinutePerProjectPerModel-FreeTier""
+  quota_dimensions {
+    key: ""model""
+    value: ""gemini-3.5-flash-lite""
+  }
+  quota_dimensions {
+    key: ""location""
+    value: ""global""
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 47
+}
+]",0.0,0.0,0.0,0.0
+Why is RAG useful?,"RAG is useful when an AI application needs to answer questions using specific or changing information, such as company documents, policies, or knowledge bases.","ERROR: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 47.040278718s. [links {
+  description: ""Learn more about Gemini API quotas""
+  url: ""https://aistudio.google.com/docs/rate-limits""
+}
+, violations {
+  description: ""Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.""
+  quota_metric: ""generativelanguage.googleapis.com/generate_content_free_tier_requests""
+  quota_id: ""GenerateRequestsPerMinutePerProjectPerModel-FreeTier""
+  quota_dimensions {
+    key: ""model""
+    value: ""gemini-3.5-flash-lite""
+  }
+  quota_dimensions {
+    key: ""location""
+    value: ""global""
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 47
+}
+]",0.0,0.0,0.0,0.0
+What is a vector database?,A vector database stores numerical representations called embeddings and allows applications to search for information based on semantic similarity.,"RAG stands for Retrieval-Augmented Generation, which is a technique that lets AI look up factual documents before answering your question.
+It is useful because it stops the AI from guessing or making things up by giving it a specific textbook to read first.
+A vector database is a special kind of storage system that organizes this information by meaning so the AI can find relevant facts instantly.",0.4,0.429,0.8,0.543
+What are embeddings?,"Embeddings are numerical representations of text, images, or other data. Similar meanings tend to have similar vector representations, which makes semantic search possible.","ERROR: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.
+Please retry in 45.091265892s. [links {
+  description: ""Learn more about Gemini API quotas""
+  url: ""https://aistudio.google.com/docs/rate-limits""
+}
+, violations {
+  description: ""Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.""
+  quota_metric: ""generativelanguage.googleapis.com/generate_content_free_tier_requests""
+  quota_id: ""GenerateRequestsPerMinutePerProjectPerModel-FreeTier""
+  quota_dimensions {
+    key: ""model""
+    value: ""gemini-3.5-flash-lite""
+  }
+  quota_dimensions {
+    key: ""location""
+    value: ""global""
+  }
+  quota_value: 15
+}
+, retry_delay {
+  seconds: 45
+}
+]",0.0,0.0,0.0,0.0
+What is an AI Agent?,"An AI Agent is a system that can understand a goal, decide what actions are needed, use tools when necessary, and work through multiple steps to complete a task.","Embeddings are a way to turn words, sentences, or images into lists of numbers that capture their actual meaning.
+This allows computers to mathematically compare concepts, recognizing that words like ""puppy"" and ""dog"" are very close in meaning.
+An AI agent is a smart program that uses this understanding to independently take actions and achieve goals without constant human help.",0.2,0.5,0.8,0.5
+How can AI be used in education?,"AI can support education by explaining concepts, generating practice questions, adapting lessons to student levels, providing feedback, and helping students learn at their own pace.","Artificial intelligence can act as a personal tutor, adapting lessons to fit each individual student's unique learning pace.
+It can also help teachers automate boring, repetitive tasks like grading multiple-choice quizzes and organizing schedules.
+This frees up more time for educators to focus on meaningful, one-on-one interactions with their students.",0.6,1.0,1.0,0.867
